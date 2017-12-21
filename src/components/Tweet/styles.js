@@ -9,7 +9,7 @@ export default {
     'fontSize': '14px',
     'lineHeight': '18px',
     'listStyleImage': 'none',
-    'listStylePosition': 'outisde',
+    'listStylePosition': 'outside',
     'listStyleType': 'none',
     'padding': '9px 12px',
     'position': 'relative',
