@@ -4,7 +4,7 @@ import Photos from './Photos'
 
 class Media extends React.Component {
   render () {
-    if (this.props.media && this.props.media.length > 0) {
+    if (this.props.media && this.props.media.length > 0 && this.props.media[0]) {
       switch (this.props.media[0].type) {
         case 'photo':
           return <Photos {... this.props} />
